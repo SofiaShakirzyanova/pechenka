@@ -6,18 +6,25 @@ text-align: center;
 }
 body{
     background-color: rgb(0, 0, 0);
+    text-align: center;
 }
 img{
 border-radius: 10px;
 box-shadow: 0px 0px 20px rgb(252, 194, 229);
 width: 400px;
+
+}
+#xom9Ik{
+margin-left: 20px;
+    
+
 }
 h2{
-    color: rgb(180, 241, 231);
+    color: rgb(248, 252, 251);
     font-family: 'Pacifico', cursive;
     text-shadow: 0 0 10px rgb(193, 147, 231);
-width: 500px;
 font-weight: normal;
+text-align: center;
 }
 nav{
     background-color: rgb(175, 211, 243);
@@ -25,7 +32,7 @@ nav{
     text-align: center;
 }
 nav a{
-display: inline-block;
+display: inline-block;  
 line-height: 40px;
 font-family: 'Pacifico', cursive;
 color: rgb(138, 115, 240);
@@ -36,7 +43,7 @@ padding: 0px 10px 0px 10px;
 nav a:hover{
 background-color: rgba(142, 79, 224, 0.178);
 }
-#push{
+.knopka{
 line-height:40px ;
 font-family: 'Pacifico', cursive;
 color: rgb(89, 41, 177);
@@ -46,6 +53,7 @@ border-radius: 10px;
 display: inline-block;
 padding: 0px 10px 0px 10px;
 text-decoration: none;
+border: 1px solid rgba(255, 255, 255, 0);
 }
 .hero{
 background-image: url("хомяк.png");
@@ -65,8 +73,49 @@ padding: 100px 0;
     width: 40%;
     display: inline-block;
 }
-h2{
+h4,p{
     color: aliceblue;
     font-family: 'Pacifico', cursive;
     text-shadow: 0 0 10px rgb(224, 167, 231);
+}
+.aboutHamster{
+    text-align: center;
+}
+.country{
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(252, 194, 229);
+    display:inline-block;
+    margin-right: 2%;
+    background-color: #c0c2c2;
+    vertical-align: top;
+    padding-bottom: 20px;
+}
+li{
+    font-family: 'Pacifico', cursive; 
+    color: rgb(15, 56, 42);
+}
+.knopka:hover{
+border: 1px solid white;
+box-shadow: 0px 0px 20px rgb(188 188 235);
+}
+.country a{
+    border: 1px solid rgba(243, 190, 190, 0.247);  
+}
+h3{
+    color: rgb(255, 255, 255);
+    font-family: 'Pacifico', cursive; 
+    text-shadow: 0 0 10px rgb(193, 147, 231);
+}
+.hamster{
+box-shadow: 0px 0px 30px rgb(212, 241, 156);
+width: 25%;
+display: inline-block;
+border-radius: 20px;
+margin: 10px;
+vertical-align: top;
+padding: 20px;
+}
+input{
+    display: block;
 }
