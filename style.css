@@ -116,6 +116,20 @@ margin: 10px;
 vertical-align: top;
 padding: 20px;
 }
-input{
+input,textarea{
     display: block;
+    font-family: 'Pacifico', cursive; 
+    color: rgba(0, 0, 0, 0.466);
+    text-shadow: 0 0 10px rgb(163, 240, 91);   
+    text-align: center; 
+    margin: auto;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+
+}
+textarea{
+    height: auto;
 }
